@@ -1,0 +1,26 @@
+{
+  "name": "sorter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MihaiTudorP/sorter-demo-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MihaiTudorP/sorter-demo-ts/issues"
+  },
+  "homepage": "https://github.com/MihaiTudorP/sorter-demo-ts#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
