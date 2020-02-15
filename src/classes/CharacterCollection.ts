@@ -1,7 +1,8 @@
-import {Collection} from '../interfaces/Collection';
+import {Sorter} from './Sorter';
 
-export class CharacterCollection implements Collection{
+export class CharacterCollection extends Sorter{
     constructor(public data: string) {
+        super();
     }
 
     length(){

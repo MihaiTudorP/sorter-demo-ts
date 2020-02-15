@@ -1,7 +1,8 @@
-import {Collection} from '../interfaces/Collection';
+import {Sorter} from './Sorter';
 
-export class NumbersCollection implements Collection {
+export class NumbersCollection extends Sorter {
     constructor(public data: number[]) {
+        super();
     }
 
     length(): number {

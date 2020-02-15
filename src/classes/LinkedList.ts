@@ -1,7 +1,7 @@
-import {Collection} from '../interfaces/Collection';
 import {LinkedListNode} from './LinkedListNode';
+import {Sorter} from './Sorter';
 
-export class LinkedList implements Collection{
+export class LinkedList extends Sorter {
     head: LinkedListNode|null = null;
 
     add(data: number): void{
